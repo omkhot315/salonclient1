@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar { width: 4px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #44403c; border-radius: 999px; }
+.custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #78716c; }
+
+html { scroll-behavior: smooth; }
+
+.line-clamp-1 { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #1c1917 inset !important;
+  -webkit-text-fill-color: #fef3c7 !important;
+}
+
+*:focus-visible { outline: 2px solid #d4a017; outline-offset: 2px; border-radius: 8px; }
+
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }

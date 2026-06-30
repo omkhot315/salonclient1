@@ -27,7 +27,7 @@ export default function LandingSection({ onBookNow }: Props) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-yellow-500 to-yellow-700 flex items-center justify-center shadow-lg shadow-yellow-600/30"><Scissors className="w-5 h-5 text-black" /></div>
-            <span className="text-xl font-bold text-yellow-400" style={{ fontFamily: 'Playfair Display, serif' }}>GlowUp</span>
+            <span className="text-xl font-bold text-yellow-400" style={{ fontFamily: 'Playfair Display, serif' }}>YourSalonName</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-400">
             <a href="#features" className="hover:text-yellow-400 transition-colors">Features</a>
@@ -199,7 +199,7 @@ export default function LandingSection({ onBookNow }: Props) {
             <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
               className="bg-neutral-900 rounded-2xl p-8 border border-neutral-800 flex flex-col justify-center space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-white mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>GlowUp Salon</h3>
+                <h3 className="text-xl font-bold text-white mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>Your Salon Name</h3>
                 <p className="text-neutral-400 leading-relaxed">123 Beauty Lane, Downtown<br />Pune, Maharashtra 411001<br />India</p>
               </div>
 
@@ -214,7 +214,7 @@ export default function LandingSection({ onBookNow }: Props) {
                   <div className="w-9 h-9 rounded-xl bg-yellow-500/10 border border-yellow-700/30 flex items-center justify-center">
                     <svg className="w-4 h-4 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                   </div>
-                  <div><p className="text-xs text-neutral-500">Email</p><p className="text-sm text-white font-medium">hello@glowupsalon.com</p></div>
+                  <div><p className="text-xs text-neutral-500">Email</p><p className="text-sm text-white font-medium">Yoursalonname@gmail.com</p></div>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-9 h-9 rounded-xl bg-yellow-500/10 border border-yellow-700/30 flex items-center justify-center">
@@ -242,7 +242,7 @@ export default function LandingSection({ onBookNow }: Props) {
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-yellow-500 to-yellow-700 flex items-center justify-center"><Scissors className="w-4 h-4 text-black" /></div>
-                <span className="text-lg font-bold text-yellow-400" style={{ fontFamily: 'Playfair Display, serif' }}>GlowUp</span>
+                <span className="text-lg font-bold text-yellow-400" style={{ fontFamily: 'Playfair Display, serif' }}>YourSalonName</span>
               </div>
 
               {/* Social Media Links */}
@@ -288,7 +288,7 @@ export default function LandingSection({ onBookNow }: Props) {
 
             {/* Bottom row */}
             <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-6 border-t border-neutral-800">
-              <p className="text-sm text-neutral-600">© 2026 GlowUp Salon. All rights reserved.</p>
+              <p className="text-sm text-neutral-600">© 2026 YourSalonName. All rights reserved.</p>
               <div className="flex gap-4 text-sm">
                 <a href="#" className="hover:text-yellow-400 transition-colors">Privacy</a>
                 <a href="#" className="hover:text-yellow-400 transition-colors">Terms</a>
